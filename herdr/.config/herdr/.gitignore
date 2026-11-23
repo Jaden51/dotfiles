@@ -1,0 +1,15 @@
+# Runtime sockets, logs, and session state
+*.sock
+*.sock.*
+*.log
+session.json
+session-snapshots/
+
+# Machine-specific plugin checkouts and snapshots
+plugins/*
+!plugins/config/
+plugins.json
+.plugins.lock
+
+# Plugin credentials/caches if present
+plugins/config/**/credentials
