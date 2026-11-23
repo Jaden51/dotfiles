@@ -1,0 +1,7 @@
+# Runtime logs, screen dumps, and benchmark output
+k9s.log
+screen-dumps/
+benchmarks/
+
+# Auto-generated per-cluster state and cluster names
+clusters/
